@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #686de0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#main{
+    background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+	padding: 50px 20px;
+	text-align: center;
+	max-width: 100%;
+	width: 800px;
+}
+button{
+    background-color: #9F68E0;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+	color: #fff;
+	cursor: pointer;
+	font-size: 17px;
+	padding: 10px 30px;
+}
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus, input:focus {
+	outline: 0;
+}
+#delete:hover{
+    
+    background-color: red;
+}
+#add:hover{
+    background-color: salmon;
+}
+#tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    list-style: none;
+    width: 300px;
+    font-size: 22px;
+    text-transform: capitalize;
+    background-color: #686de0;
+    padding: 8px 0;
+    margin: 10px 50px;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    color: white;
+}
+.bxs-trash{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    
+}
+input{
+    padding: 8px 4px;
+    width: 500px;
+}
+i{
+    font-size: 15px;
+}
+i:hover{
+    color: yellow;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Todo list App</h1>
+    <main id="main">
+        <section>
+            <input id="text" type="text" placeholder="Write your task">
+            <button id="add" onclick="addItem()">Add <i class='bx bxs-plus-circle'></i></button>
+        </section>
+        <section id="display-task">
+            <ul id="tasks">
+
+            </ul>
+        </section>
+        <section>
+            <button id="delete" onclick="emptyTask()">Done Task <i class='bx bxs-trash'></i></button>
+        </section>
+    </main>
+</body>
+
+</html>
